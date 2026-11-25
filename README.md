@@ -182,7 +182,7 @@ only reasonable one; treat the output as a heuristic for lab discussion.
 
 ```
 pip install -r requirements.txt
-./run_all.sh                       # rebuilds results from data/ and runs the tests
+bash run_all.sh                     # rebuilds results from data/ and runs the tests
 python3 alchemy_lacquer_model.py   # rebuilds everything from data/
 python3 test_model.py              # 23 checks
 python3 predict.py 0.8524 0.5331 0.9905 0.4717
