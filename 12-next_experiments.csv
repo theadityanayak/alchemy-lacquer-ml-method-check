@@ -1,0 +1,6 @@
+rank,vernetzung,hdi_ipdi,mattierungsmittel,pigmentpaste,vernetzung_source_scale,hdi_ipdi_source_scale,mattierungsmittel_source_scale,pigmentpaste_source_scale,predicted_kratzhaerte,std_latent,std_observation_calibrated,ci95_halfwidth_calibrated,expected_improvement_latent
+1,0.8524,0.5331,0.9905,0.4717,1.147,0.533,4.933,14.423,17.432,0.361,4.448,8.718,0.4569
+2,0.6883,0.3635,0.9883,0.386,1.082,0.364,4.922,12.71,17.298,0.334,4.397,8.618,0.3358
+3,0.9938,0.7474,0.9946,0.4822,1.204,0.747,4.953,14.633,17.236,0.425,4.578,8.972,0.3164
+4,0.9941,0.5687,0.9949,0.69,1.204,0.569,4.955,18.786,17.203,0.425,4.579,8.974,0.2938
+5,0.6575,0.6427,0.9803,0.3363,1.069,0.643,4.882,11.718,17.244,0.323,4.378,8.582,0.2897
