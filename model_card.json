@@ -1,0 +1,33 @@
+{
+  "model": "gp_paper_kernel",
+  "kernel": "0.668**2 * RBF(length_scale=0.629) + WhiteKernel(noise_level=0.714)",
+  "inflation_factor": 1.692613718953203,
+  "features_normalized_0_1": [
+    "vernetzung",
+    "hdi_ipdi",
+    "mattierungsmittel",
+    "pigmentpaste"
+  ],
+  "denorm": {
+    "vernetzung": {
+      "slope": 0.399598,
+      "intercept": 0.806557
+    },
+    "hdi_ipdi": {
+      "slope": 1.0,
+      "intercept": 0.0
+    },
+    "mattierungsmittel": {
+      "slope": 4.980258,
+      "intercept": 0.0
+    },
+    "pigmentpaste": {
+      "slope": 19.983911,
+      "intercept": 4.997254
+    }
+  },
+  "target": "kratzhaerte (scratch hardness, critical load)",
+  "best_measured": 22.550676345825,
+  "trained_on": "42 labeled PURformance rows (Zenodo 10.5281/zenodo.13742097, CC-BY-4.0)",
+  "seed": 42
+}
